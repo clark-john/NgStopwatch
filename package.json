@@ -8,8 +8,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "format": "prettier -w ./src/app/**/*.{html,ts}",
-    "deploy": "yarn build && gh-pages -d dist"
+    "format": "prettier -w ./src/app/**/*.{html,ts}"
   },
   "private": true,
   "dependencies": {
