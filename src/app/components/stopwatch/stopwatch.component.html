@@ -1,0 +1,12 @@
+<div class="main">
+  <div class="main-box">
+    <div class="time">{{ time }}</div>
+    <div class="buttons">
+      <app-button text="Start" [onClick]="start"></app-button>
+      <app-button text="Stop" [onClick]="stop"></app-button>
+      <app-button text="Lap" [onClick]="lap"></app-button>
+      <app-button text="Reset" [onClick]="reset"></app-button>
+    </div>
+  </div>
+  <stopwatch-laps></stopwatch-laps>
+</div>

@@ -1,0 +1,19 @@
+$radius: 7px;
+$number-radius: 10px;
+
+.lap-item {
+	background-color: #343434;
+	display: grid;
+	padding: 10px;
+	align-items: center;
+	grid-template-columns: 3% 1fr;
+	border-radius: $radius;
+	.lap-number {
+		background-color: #454545;
+		border-radius: $number-radius;
+		padding-block: 4px;
+	}
+	.lap-time {
+		font-size: 1.4rem;
+	}
+}

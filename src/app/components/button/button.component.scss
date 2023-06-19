@@ -1,0 +1,19 @@
+button {
+	border: none;
+	border-radius: 10px;
+	font-size: 1.25rem;
+	padding: .5rem 1rem;
+	box-shadow: 5px 5px 10px #00000030;
+	transition: filter 250ms;
+	&:active {
+		transform: translateY(1px);
+	}
+	&:hover {
+		filter: brightness(.7);
+	}
+	font-family: Inter, sans-serif;
+}
+
+.small {
+	font-size: 1rem;
+}

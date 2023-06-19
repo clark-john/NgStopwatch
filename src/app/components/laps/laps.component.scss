@@ -1,0 +1,23 @@
+@use "../stopwatch/stopwatch.component" as s;
+@use "../../colors" as c;
+
+.laps-container {
+	width: s.$width - 10px;
+	height: 450px;
+	background-color: lighten(c.$stopwatch-bg, 1);
+	margin-top: 2rem;
+	margin-bottom: 1.5rem;
+	border-radius: s.$radius;
+	padding: 18px 30px;
+	overflow-y: scroll;
+	.lg-txt {
+		font-size: 1.25rem;
+		font-weight: bold;
+		margin-bottom: 1.5rem;
+	}
+	.laps {
+		display: flex;
+		flex-direction: column;
+		row-gap: 12px;
+	}	
+}

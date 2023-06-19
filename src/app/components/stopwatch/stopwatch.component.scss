@@ -1,0 +1,30 @@
+@use "../../colors" as c;
+
+$radius: 1rem;
+$width: 1000px;
+
+.main {
+	margin-top: 3rem;
+	text-align: -webkit-center;
+}
+
+.main-box {
+	width: $width;
+	height: fit-content;
+	background-color: c.$stopwatch-bg;
+	border-radius: $radius;
+	padding: 25px;
+	.time {
+		font-size: 6rem;
+		border-radius: $radius;
+		font-weight: 500;
+		background-color: c.$stopwatch-time-bg;
+		margin-bottom: 1.25rem;
+	}
+	.buttons {
+		display: flex;
+		gap: 1.25rem;
+		justify-content: center;
+		margin-top: 1.25rem;
+	}
+}

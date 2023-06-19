@@ -1,0 +1,7 @@
+<div class="laps-container">
+  <div class="lg-txt">Laps</div>
+  <div class="laps">
+    <lap-item *ngFor="let x of laps" [lapNumber]="x.number" [time]="x.time">
+    </lap-item>
+  </div>
+</div>
